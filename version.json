@@ -1,0 +1,6 @@
+{
+    "versionCode":  3,
+    "versionName":  "1.2",
+    "apkUrl":  "https://github.com/pacdt/anmbr-tv/releases/latest/download/app-release.apk",
+    "releaseNotes":  "Versão inicial com suporte a OTA e Gêneros dinâmicos."
+}

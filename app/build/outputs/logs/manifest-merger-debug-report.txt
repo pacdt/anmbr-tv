@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.media3:media3-ui:1.2.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\af46197036ad5014a9bafed1a04264d7\transformed\jetified-media3-ui-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media3:media3-datasource-okhttp:1.2.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\bd1da64f9ea6512276080d4be12e4e5f\transformed\jetified-media3-datasource-okhttp-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media3:media3-extractor:1.2.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\a2e309e09e8182e18865ba6400d146d6\transformed\jetified-media3-extractor-1.2.0\AndroidManifest.xml:17:1-22:12
@@ -101,21 +101,29 @@ MERGED from [androidx.media3:media3-exoplayer:1.2.0] C:\Users\Mateus & Gislayne\
 MERGED from [androidx.media3:media3-exoplayer:1.2.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\3d576e6bd61ccde82a7a70c96db095ca\transformed\jetified-media3-exoplayer-1.2.0\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:7:5-83
+	android:name
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:7:22-80
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:8:22-78
 uses-feature#android.software.leanback
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:8:5-10:36
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:10:5-12:36
 	android:required
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:10:9-33
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:12:9-33
 	android:name
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:9:9-49
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:11:9-49
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:11:5-13:36
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:13:5-15:36
 	android:required
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:13:9-33
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:15:9-33
 	android:name
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:12:9-52
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:14:9-52
 application
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:15:5-38:19
-INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:15:5-38:19
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:17:5-40:19
+INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:17:5-40:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\07ba90ab7603d2f6b6ec67f2fe1d23d7\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\07ba90ab7603d2f6b6ec67f2fe1d23d7\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\02efc48c77c6053d485803d48193bd8d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:22:5-26:19
@@ -139,49 +147,49 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mateus & Gislayne\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:20:9-32
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:22:9-32
 	android:fullBackupContent
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:20:9-54
 	android:roundIcon
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:23:9-54
 	tools:targetApi
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:25:9-29
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:27:9-29
 	android:icon
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:18:9-35
 	android:banner
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:24:9-45
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:26:9-45
 	android:theme
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:23:9-47
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:25:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:17:9-65
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:19:9-65
 activity#com.anmfire.tv.MainActivity
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:27:9-37:20
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:29:9-39:20
 	android:label
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:33:13-36
 	android:exported
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:31:13-36
 	android:theme
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:30:13-51
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:32:13-51
 	android:name
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:30:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:36:27-74
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:35:17-86
+ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:37:17-86
 	android:name
-		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:35:27-83
+		ADDED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:37:27-83
 uses-sdk
 INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml

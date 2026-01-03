@@ -79,9 +79,8 @@ fun HomeScreen(
         // or we could load them progressively.
         val loadedRails = mutableMapOf<Genre, List<Anime>>()
         
-        // Prioritize some common genres if they exist
-        val prioritized = listOf("Action", "Adventure", "Fantasy", "Sci-Fi", "Comedy", "Drama")
-        val sortedGenres = genres.sortedByDescending { it.name in prioritized }
+        // Sort by count descending (most popular first)
+        val sortedGenres = genres.sortedByDescending { it.count }
 
         sortedGenres.take(15).forEach { genre ->
              val animes = repository.getAnimesByGenre(genre.slug).take(10)

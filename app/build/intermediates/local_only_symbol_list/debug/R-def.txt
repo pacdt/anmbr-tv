@@ -18,3 +18,4 @@ string app_name
 style Theme.AnmFireTV
 xml backup_rules
 xml data_extraction_rules
+xml provider_paths

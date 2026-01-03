@@ -1,15 +1,15 @@
 [
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable_splash.png.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable\\splash.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\xml_data_extraction_rules.xml.flat",
@@ -20,12 +20,16 @@
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-port-hdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-port-hdpi/splash.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-land-hdpi_splash.png.flat",
@@ -40,28 +44,36 @@
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-land-mdpi_splash.png.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-land-mdpi\\splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-land-xxxhdpi_splash.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-land-xxxhdpi\\splash.png"
+    },
+    {
+        "merged": "com.anmfire.tv.app-merged_res-60:/xml_provider_paths.xml.flat",
+        "source": "com.anmfire.tv.app-main-62:/xml/provider_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-port-xxhdpi_splash.png.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-xxhdpi\\splash.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-port-hdpi_splash.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-hdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-land-xxhdpi_splash.png.flat",
@@ -84,132 +96,20 @@
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-mdpi\\splash.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-port-xxhdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-port-xxhdpi/splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-port-mdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-port-mdpi/splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-port-xhdpi_splash.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-xhdpi\\splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-land-xxxhdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-land-xxxhdpi/splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable/splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-port-xhdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-port-xhdpi/splash.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-hdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-land-xxxhdpi_splash.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-land-xxxhdpi\\splash.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-port-hdpi_splash.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-hdpi\\splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-land-hdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-land-hdpi/splash.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-land-xhdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-land-xhdpi/splash.png"
-    },
-    {
-        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-port-xxxhdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-port-xxxhdpi/splash.png"
-    },
-    {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-port-xxxhdpi_splash.png.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-xxxhdpi\\splash.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-land-mdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-land-mdpi/splash.png"
     },
     {
         "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
@@ -220,15 +120,15 @@
         "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-land-xhdpi\\splash.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable-port-xhdpi_splash.png.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable-port-xhdpi\\splash.png"
     },
     {
-        "merged": "com.anmfire.tv.app-merged_res-60:/drawable-land-xxhdpi_splash.png.flat",
-        "source": "com.anmfire.tv.app-main-62:/drawable-land-xxhdpi/splash.png"
+        "merged": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-merged_res-60:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mateus & Gislayne\\.gradle\\daemon\\8.14.3\\com.anmfire.tv.app-main-62:\\drawable\\ic_launcher_background.xml"
     }
 ]

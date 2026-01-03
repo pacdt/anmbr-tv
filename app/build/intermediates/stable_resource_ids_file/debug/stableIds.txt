@@ -1,3 +1,4 @@
+com.anmfire.tv:xml/provider_paths = 0x7f0f0002
 com.anmfire.tv:styleable/StateListDrawable = 0x7f0e0017
 com.anmfire.tv:styleable/NavDeepLink = 0x7f0e000f
 com.anmfire.tv:styleable/NavArgument = 0x7f0e000e

@@ -1,3 +1,12 @@
+import java.util.Properties
+import java.io.FileInputStream
+
+val versionProps = Properties()
+val versionPropsFile = file("version.properties")
+if (versionPropsFile.exists()) {
+    versionProps.load(FileInputStream(versionPropsFile))
+}
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -12,8 +21,9 @@ android {
         applicationId = "com.anmfire.tv"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        
+        versionCode = (versionProps["VERSION_CODE"] as String? ?: "1").toInt()
+        versionName = versionProps["VERSION_NAME"] as String? ?: "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

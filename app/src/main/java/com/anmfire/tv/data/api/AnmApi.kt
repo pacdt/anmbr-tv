@@ -19,4 +19,7 @@ interface AnmApi {
 
     @GET("genres/list.json")
     suspend fun getGenreList(): List<Genre>
+
+    @GET
+    suspend fun checkUpdate(@retrofit2.http.Url url: String): com.anmfire.tv.data.model.AppVersion
 }

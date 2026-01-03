@@ -21,6 +21,12 @@ import com.anmfire.tv.common.DeviceUtils
 import com.anmfire.tv.ui.components.AppBottomNavigation
 import com.anmfire.tv.ui.components.Sidebar
 import com.anmfire.tv.ui.theme.AnmFireTheme
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import com.anmfire.tv.common.UpdateManager
+import com.anmfire.tv.common.UpdateStatus
+import com.anmfire.tv.ui.components.UpdateDialog
+import androidx.core.content.pm.PackageInfoCompat
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +38,34 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     val context = LocalContext.current
+                    
+                    // Update Check
+                    val updateManager = remember { UpdateManager(context) }
+                    val updateStatus by updateManager.status.collectAsState()
+                    
+                    LaunchedEffect(Unit) {
+                        try {
+                            val pInfo = context.packageManager.getPackageInfo(context.packageName, 0)
+                            val version = PackageInfoCompat.getLongVersionCode(pInfo).toInt()
+                            updateManager.checkForUpdate(version)
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    }
+                    
+                    UpdateDialog(
+                        status = updateStatus,
+                        onUpdateClick = {
+                            if (updateStatus is UpdateStatus.Available) {
+                                val url = (updateStatus as UpdateStatus.Available).version.apkUrl
+                                updateManager.startDownload(url)
+                            }
+                        },
+                        onDismiss = {
+                            // Optional: Hide dialog explicitly or handle dismissal
+                        }
+                    )
+
                     val isTv = remember { DeviceUtils.isTv(context) }
                     val navController = rememberNavController()
                     val navBackStackEntry by navController.currentBackStackEntryAsState()
