@@ -8,6 +8,6 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">AnmFire TV</string>
+    <string name="app_name">AnmBR TV</string>
     <style name="Theme.AnmFireTV" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>
