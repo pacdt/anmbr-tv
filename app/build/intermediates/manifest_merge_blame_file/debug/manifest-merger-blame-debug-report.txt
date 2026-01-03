@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anmfire.tv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <uses-feature
+14-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:8:5-10:36
+15        android:name="android.software.leanback"
+15-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:9:9-49
+16        android:required="false" />
+16-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:10:9-33
+17    <uses-feature
+17-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.touchscreen"
+18-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:12:9-52
+19        android:required="false" />
+19-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:13:9-33
+20
+21    <permission
+21-->[androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.anmfire.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.anmfire.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:15:5-38:19
+28        android:allowBackup="true"
+28-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\dd84b74d38217640eb4484521e1803f2\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+30        android:banner="@mipmap/ic_launcher"
+30-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:24:9-45
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:17:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:18:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:19:9-43
+36        android:label="AnmFire"
+36-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:20:9-32
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:21:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:22:9-35
+39        android:theme="@style/Theme.AnmFireTV" >
+39-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:23:9-47
+40        <activity
+40-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:27:9-37:20
+41            android:name="com.anmfire.tv.MainActivity"
+41-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:28:13-41
+42            android:exported="true"
+42-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:29:13-36
+43            android:label="AnmFire"
+43-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:31:13-36
+44            android:theme="@style/Theme.AnmFireTV" >
+44-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:30:13-51
+45            <intent-filter>
+45-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:32:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:33:17-69
+46-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:34:17-77
+48-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:34:27-74
+49                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+49-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:35:17-86
+49-->C:\Users\Mateus & Gislayne\Documents\Repos\anmfire\kotlin\app\src\main\AndroidManifest.xml:35:27-83
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\07ba90ab7603d2f6b6ec67f2fe1d23d7\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:23:9-25:39
+53            android:name="androidx.activity.ComponentActivity"
+53-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\07ba90ab7603d2f6b6ec67f2fe1d23d7\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:24:13-63
+54            android:exported="true" />
+54-->[androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\07ba90ab7603d2f6b6ec67f2fe1d23d7\transformed\jetified-ui-test-manifest-1.6.1\AndroidManifest.xml:25:13-36
+55        <activity
+55-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\02efc48c77c6053d485803d48193bd8d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\02efc48c77c6053d485803d48193bd8d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\02efc48c77c6053d485803d48193bd8d\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.anmfire.tv.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\0a2c96c64a73885ea20140cb6df9dbe9\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\ef2ef8ed1cd60af40f1750a58a0a7cfc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\ef2ef8ed1cd60af40f1750a58a0a7cfc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\ef2ef8ed1cd60af40f1750a58a0a7cfc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <service
+74-->[androidx.room:room-runtime:2.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\40c30f4dae46a0217aca329904f61d7c\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+75            android:name="androidx.room.MultiInstanceInvalidationService"
+75-->[androidx.room:room-runtime:2.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\40c30f4dae46a0217aca329904f61d7c\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+76            android:directBootAware="true"
+76-->[androidx.room:room-runtime:2.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\40c30f4dae46a0217aca329904f61d7c\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+77            android:exported="false" />
+77-->[androidx.room:room-runtime:2.6.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\40c30f4dae46a0217aca329904f61d7c\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Mateus & Gislayne\.gradle\caches\8.14.3\transforms\8bb9a97def9d4f7ffaf0c38090158ee6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>
