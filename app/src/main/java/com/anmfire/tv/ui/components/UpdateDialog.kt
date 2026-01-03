@@ -38,7 +38,11 @@ fun UpdateDialog(
     onDismiss: () -> Unit
 ) {
     if (status is UpdateStatus.Available || status is UpdateStatus.Downloading || status is UpdateStatus.Error || status is UpdateStatus.ReadyToInstall) {
-        Dialog(onDismissRequest = { /* Prevent dismiss during update */ }) {
+        Dialog(onDismissRequest = { 
+            if (status !is UpdateStatus.Downloading && status !is UpdateStatus.ReadyToInstall) {
+                onDismiss()
+            }
+        }) {
             Box(
                 modifier = Modifier
                     .width(400.dp)

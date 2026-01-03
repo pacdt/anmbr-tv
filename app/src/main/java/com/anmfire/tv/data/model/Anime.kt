@@ -39,7 +39,16 @@ data class Episode(
 ) {
     fun getEpisodeNumber(): String {
         val num = numero?.toString() ?: number
-        return num ?: "??"
+        return try {
+            val d = num?.toDoubleOrNull()
+            if (d != null && d % 1 == 0.0) {
+                d.toInt().toString()
+            } else {
+                num ?: "??"
+            }
+        } catch (e: Exception) {
+            num ?: "??"
+        }
     }
 
     fun getVideoUrl(): String {

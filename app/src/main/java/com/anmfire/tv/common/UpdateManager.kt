@@ -35,6 +35,10 @@ class UpdateManager(private val context: Context) {
     private val VERSION_JSON_URL = "https://raw.githubusercontent.com/pacdt/anmbr-tv/main/version.json"
     private var downloadId: Long = -1
 
+    fun resetStatus() {
+        _status.value = UpdateStatus.Idle
+    }
+
     suspend fun checkForUpdate(currentVersionCode: Int) {
         _status.value = UpdateStatus.Checking
         try {

@@ -257,44 +257,47 @@ fun EpisodeItem(
 ) {
     var isFocused by remember { mutableStateOf(false) }
     
-    Column(
+    Row(
         modifier = Modifier
-            .width(220.dp) // Aumentei a largura para caber melhor o nome
+            .fillMaxWidth()
             .clip(RoundedCornerShape(8.dp))
             .background(if (isFocused) BrandAccent else Neutral800)
             .clickable(onClick = onClick)
             .onFocusChanged { isFocused = it.isFocused }
             .focusable()
             .padding(12.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
+        verticalAlignment = Alignment.CenterVertically
     ) {
         Text(
             text = "EP ${episode.getEpisodeNumber()}",
             color = Color.White,
             fontWeight = FontWeight.Bold,
-            fontSize = 16.sp
+            fontSize = 16.sp,
+            modifier = Modifier.width(80.dp)
         )
         
-        // Nome do episódio
-        Text(
-            text = episode.nome ?: "Episódio ${episode.getEpisodeNumber()}",
-            color = if (isFocused) Color.White.copy(alpha = 0.9f) else Neutral300,
-            fontSize = 12.sp,
-            maxLines = 2, // Permitir 2 linhas
-            overflow = TextOverflow.Ellipsis,
-            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-            modifier = Modifier.padding(top = 4.dp).height(32.dp) // Altura fixa para alinhar
-        )
+        Spacer(modifier = Modifier.width(16.dp))
         
-        if (history != null && history.duration > 0) {
-            Spacer(modifier = Modifier.height(8.dp))
-            val progress = history.position.toFloat() / history.duration.toFloat()
-            LinearProgressIndicator(
-                progress = progress,
-                color = if (isFocused) Color.White else BrandAccent,
-                trackColor = Neutral400.copy(alpha = 0.3f),
-                modifier = Modifier.height(4.dp).fillMaxWidth()
+        Column(modifier = Modifier.weight(1f)) {
+            // Nome do episódio
+            Text(
+                text = episode.nome ?: "Episódio ${episode.getEpisodeNumber()}",
+                color = if (isFocused) Color.White.copy(alpha = 0.9f) else Neutral300,
+                fontSize = 14.sp,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
             )
+            
+            if (history != null && history.duration > 0) {
+                Spacer(modifier = Modifier.height(4.dp))
+                val progress = history.position.toFloat() / history.duration.toFloat()
+                LinearProgressIndicator(
+                    progress = progress,
+                    color = if (isFocused) Color.White else BrandAccent,
+                    trackColor = Neutral400.copy(alpha = 0.3f),
+                    modifier = Modifier.height(4.dp).fillMaxWidth()
+                )
+            }
         }
     }
 }

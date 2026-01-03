@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
                             }
                         },
                         onDismiss = {
-                            // Optional: Hide dialog explicitly or handle dismissal
+                            updateManager.resetStatus()
                         }
                     )
 
